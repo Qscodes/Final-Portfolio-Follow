@@ -1,7 +1,7 @@
 *{
   font-size: 18px
 }
-
+/*Header Stlye*/
 header {
   display: flex;
 }
@@ -19,3 +19,26 @@ header {
   flex: 1;
   text-align: right;
 }
+/*End of Header Stlye*/
+
+/*end of header*/
+
+/*Main Content Style*/
+Main{
+  min-height: 200px;
+  border: 1px solid black;
+}
+
+/*End of Content Style*/
+
+/*Footer Style*/
+footer{
+  text-align: center;
+  background: linear-gradient(to Right, #f12711 0%, #f5af19 85%)
+
+}
+
+
+
+
+/*End of Footer Styles*/
