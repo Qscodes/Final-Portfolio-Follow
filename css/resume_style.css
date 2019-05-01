@@ -1,4 +1,130 @@
+{
+  background:#131313;
+}
+
 .resume{
   text-align: center;
+
+}
+header {
+  display: flex;
+  color: #E0E0E0;
+  background:#131313;
+}
+
+.logo{
+  flex: 1;
+}
+
+.logoImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name{
+  flex-grow: 8;
+  text-align: center;
+  color: #E0E0E0;
+  font-size: 50px;
+}
+nav{
+  position: relative;
+  flex: 1;
+}
+.navButton {
+  flex: 1;
+  text-align: right;
+}
+nav ul.menu{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  display: none;
+  position:absolute;
+  right: 0px;
+  text-align: right;
+}
+
+nav:hover ul {
+  display: block;
+}
+/*End of Header Stlye*/
+
+/*end of header*/
+body{
+  margin: 0px;
+  background: linear-gradient(to bottom, #131313 0%, #e7bd70 200%);
+
+}
+/*Main Content Style*/
+Main{
+  min-height: 200px;
+
+/*  border: 1px solid black;*/
+}
+p {
+  color: #E0E0E0;
+  margin: 30px;
+}
+
+.profileImage{
+  text-align: center;
+  flex: 1;
+}
+.profileImage img{
+  width: 35%;
+  border-radius: 50%
+
+
+}
+
+/*End of Content Style*/
+
+/*Footer Style*/
+footer{
+  text-align: center;
+  background: #e7bd70 85%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.socialMedia i {
+  padding: 0 .5rem;
+}
+
+
+/*End of Footer Styles*/
+
+@media screen and (min-width: 800px) {
+section {
+  display: flex;
+}
+.profileImage {
+  flex: 1;
+}
+
+.profileImage img{
+  width: 30%;
+  text-align: left;
+}
+.aboutMe {
+  flex: 1;
+
+}
+
+footer{
+  display: flex;
+}
+.copy, .socialMedia, .contact {
+  flex:1;
+}
+.copy {
+  text-align: left;
+
+}
+.content {
+  text-align: left;
+}
 
 }
