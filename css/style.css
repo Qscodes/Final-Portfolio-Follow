@@ -14,10 +14,26 @@ header {
   flex-grow: 8;
   text-align: center;
 }
-
+nav{
+  position: relative;
+  flex: 1;
+}
 .navButton {
   flex: 1;
   text-align: right;
+}
+nav ul.menu{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  display: none;
+  position:absolute;
+  right: 0px;
+  text-align: right;
+}
+
+nav:hover ul {
+  display: block;
 }
 /*End of Header Stlye*/
 
